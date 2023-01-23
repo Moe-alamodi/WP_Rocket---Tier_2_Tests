@@ -24,26 +24,26 @@ This test contains three questions that applicant has to solve and this repo is 
 ### Test Content
 - ##### QUESTION 1
 
-WP Rocket is using the rocket_clean_domain() function to clear the site's cache whenever that's necessary.
-When an additional layer of cache is used, e.g. that of the hosting provider, that should be cleared in sync with WP Rocket's.
-SuperHoster, a fictionary host, provides the purge_superhoster_cache() function to clear their cache.
-<br />
-Using the appropriate WP Rocket's hook, write a code snippet to clear SuperHoster's cache after WP Rocket's cache is cleared.
+  WP Rocket is using the rocket_clean_domain() function to clear the site's cache whenever that's necessary.
+  When an additional layer of cache is used, e.g. that of the hosting provider, that should be cleared in sync with WP Rocket's.
+  SuperHoster, a fictionary host, provides the purge_superhoster_cache() function to clear their cache.
+  <br />
+  Using the appropriate WP Rocket's hook, write a code snippet to clear SuperHoster's cache after WP Rocket's cache is cleared.
 
 - ##### QUESTION 2
-WP Rocket's Delay JavaScript Execution feature is used to lazily load scripts upon user interaction.
-There are some exclusions added by default in WP Rocket's core, one of them being recaptcha/api.js.
-A customer wants that script to be delayed, i.e. removed from the list of built-in exclusions. 
-<br />
-Using WP Rocket's respective filter, write a code snippet or a small plugin to remove that exclusion and allow the delay of the script.
+  WP Rocket's Delay JavaScript Execution feature is used to lazily load scripts upon user interaction.
+  There are some exclusions added by default in WP Rocket's core, one of them being recaptcha/api.js.
+  A customer wants that script to be delayed, i.e. removed from the list of built-in exclusions. 
+  <br />
+  Using WP Rocket's respective filter, write a code snippet or a small plugin to remove that exclusion and allow the delay of the script.
 
 - ##### QUESTION 3
-WP Rocket is using the rocket_clean_post() function to clear a post's cache whenever that's necessary.
-<br />
-1. Which URLs are purged when that function runs?
-2. A customer reported an issue that requires you to debug that function. How would you log the URLs that are purged when rocket_clean_post() runs?
-<br />
-<br />
+  WP Rocket is using the rocket_clean_post() function to clear a post's cache whenever that's necessary.
+  <br />
+  1. Which URLs are purged when that function runs?
+  2. A customer reported an issue that requires you to debug that function. How would you log the URLs that are purged when rocket_clean_post() runs?
+  <br />
+  <br />
 
 <!-- PROJECT SOLUTION -->
 ## Project Solution 
