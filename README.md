@@ -1,7 +1,7 @@
 # WP Rocket - Tier 2 Tests
 <p align="center">
   <a href="https://docs.wp-rocket.me/">
-    <img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5415e7bfe4b01e2a68fe8243/images/60dc6f558556b07a2884aed1/wp-rocket-logo-dark@2.png" alt="Logo" width="400" height="150">
+    <img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5415e7bfe4b01e2a68fe8243/images/60dc6f558556b07a2884aed1/wp-rocket-logo-dark@2.png" alt="Logo" width="200" height="100">
   </a>
 
   <h3 align="center">WP Rocket - Tier2 Tests</h3>
@@ -9,7 +9,7 @@
   <p align="center">
     A little project to assess applicant skills.
     <br />
-    <a href="#about-the-project"><strong>Explore the docs »</strong></a>
+    <a href="#about-the-project"><strong> About The Project »</strong></a>
     <br />
     <br />
   </p>
@@ -45,6 +45,7 @@ WP Rocket is using the rocket_clean_post() function to clear a post's cache when
 <br />
 <br />
 
+<!-- PROJECT SOLUTION -->
 ## Project Solution 
 All the solutions for the questions were based on debugging the code on the GitHub repo of <a href="https://github.com/wp-media/wp-rocket">WP_Rocket</a>
 
@@ -54,7 +55,7 @@ All the solutions for the questions were based on debugging the code on the GitH
   like this ``` add_action('after_rocket_clean_domain', 'purge_superhoster_cache') ```
 
 - ##### QUESTION 2 SOLUTION
-
+  A small plugin named Remove recaptcha was created you can find the code in the ``` remove-recaptcha-delay-exclusion.php ``` file.
 
 
 - ##### QUESTION 3 SOLUTION
