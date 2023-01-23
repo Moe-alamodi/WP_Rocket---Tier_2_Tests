@@ -26,8 +26,8 @@ Using WP Rocket's respective filter, write a code snippet or a small plugin to r
 
 /* ------------- Q2 solution -------------- */
 
-function remove_recaptcha_exclusion( $excluded_scripts ) {
-    $excluded_scripts = array_diff( $excluded_scripts, array( 'recaptcha/api.js' ) );
+function remove_recaptcha_exclusion( $delay_js_exclusions ) {
+    $excluded_scripts = array_diff( $delay_js_exclusions, array( 'recaptcha/api.js' ) );
     return $excluded_scripts;
 } 
 
