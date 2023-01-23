@@ -50,13 +50,12 @@ This test contains three questions that applicant has to solve and this repo is 
 All the solutions for the questions were based on debugging the code on the GitHub repo of <a href="https://github.com/wp-media/wp-rocket">WP_Rocket</a>
 
 - ##### QUESTION 1 SOLUTION
-  The code for the first Q is in main.php file.
-  1. Assuming that the code of ``` purge_superhoster_cache() ``` is provided by the superhost, we used the ``` add_action() ``` function to trigger the ``` purge_superhoster_cache() ``` after the ``` rocket_clean_domain() ``` is called.
+  The code is in main.php file.
+  - Assuming that the code of ``` purge_superhoster_cache() ``` is provided by the superhost, we used the ``` add_action() ``` function to trigger the ``` purge_superhoster_cache() ``` after the ``` rocket_clean_domain() ``` is called.
   like this ``` add_action('after_rocket_clean_domain', 'purge_superhoster_cache') ```
 
 - ##### QUESTION 2 SOLUTION
-  A small plugin named Remove recaptcha was created you can find the code in the ``` remove-recaptcha-delay-exclusion.php ``` file.
-
+  I've created a small plugin named Remove recaptcha, you can find the code in the ``` remove-recaptcha-delay-exclusion.php ``` file.
 
 - ##### QUESTION 3 SOLUTION
   The code for the second part is in main.php file.
