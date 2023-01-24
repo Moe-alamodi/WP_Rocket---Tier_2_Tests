@@ -12,6 +12,7 @@ function purge_superhoster_cache() {
 // See remove-recaptcha-delay-exclusion.php
 
 /* ------------- Q3 solution -------------- */
+// 1- See README.md file
 // 2- A customer reported an issue that requires you to debug that function. How would you log the URLs that are purged when rocket_clean_post() runs?
 
 function rocket_clean_post( $post_id, $post = null ) {
