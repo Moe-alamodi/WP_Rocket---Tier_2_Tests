@@ -63,4 +63,4 @@ All the solutions for the questions were based on debugging the code on the GitH
   - You can get all the URLs by calling ``` $purge_urls = rocket_get_purge_urls() ```
 
   2. In the ``` rocket_clean_post() ``` function all the purge URLs are stored in ``` $purge_urls ``` so we can log them like this: <br/>
-  ``` error_log( 'Purged URLs: ' . implode( ', ', $purge_urls ) ) ```
+  ``` error_log( 'Purged URLs: ' . implode( ', ', $purge_urls ) ) ``` then we check the log file 
